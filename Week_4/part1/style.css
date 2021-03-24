@@ -1,0 +1,13 @@
+div{
+   /* border: solid black 5px; */
+   /* width: 500px; */
+   /* min-height: 30px; */
+   text-align: center;
+}
+
+img{
+   height: 300px;
+   width: 400px;
+   border: solid 20px silver;
+   border-radius: 40%;
+}
