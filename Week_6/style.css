@@ -1,0 +1,52 @@
+div{
+   min-height: 200px;
+   width: 400px;
+   border: solid 2px silver;
+}
+
+.d1{
+   border: solid 30px silver; 
+   box-sizing: border-box;;
+   /* padding-top: 30px;
+   padding-left: 50px; */
+   padding: 20px;
+   margin-top: 30px;
+   margin-left: 70px;
+   margin-bottom: 50px;
+}
+
+.container{
+   width: 700px;
+   /* padding-left: 200px;
+   padding-top: 50px; */
+   box-sizing: border-box;
+}
+
+.box{
+   background-color: aqua;
+   width: 100px;
+   min-height: 100px;
+   margin: 50px 100px;
+}
+
+.example1{
+   background-color: antiquewhite;
+   margin: 20px auto;
+}
+
+.example2{
+   background-color: blueviolet;
+   margin: 20px auto;
+}
+
+.example1 > ul > li {
+   background-color: chartreuse;
+}
+
+.example1 > ul > ul > li {
+   background-color: blue;
+}
+
+.example2 ul li {
+   background-color: aquamarine;
+}

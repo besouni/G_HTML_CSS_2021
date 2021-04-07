@@ -1,0 +1,59 @@
+div{
+   height: 200px;
+   width: 400px;
+   border: solid 2px silver;
+}
+
+.d1{
+   background-color: aqua;
+   /* top:100px;
+   left: 100px;
+   right: 100px;
+   bottom: 100px; */
+   position: absolute;
+   right: 100px;
+   bottom: 150px;
+}
+
+.d2{
+   background-color: beige;
+   width: 500px;
+   position: fixed;
+   right: 200px;
+   top: 70px;
+}
+
+.d3{
+   background-color: blueviolet;
+   width: 600px;
+   position: relative;
+   top: 100px;
+   right: -200px;
+}
+
+.d4{
+   background-color: brown;
+   width: 700px;
+   position: sticky;
+   top:0px;
+}
+
+.d5{
+   background-color: green;
+   width: 800px;
+   position: relative;
+}
+
+body{
+   height: 2500px;
+}
+
+.box{
+   height: 70px;
+   width: 70px;
+   background-color: bisque;
+   border-radius: 50%;
+   position: absolute;
+   right: 200px;
+   bottom: 0px;
+}
