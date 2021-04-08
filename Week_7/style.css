@@ -1,0 +1,57 @@
+section{
+   border: solid 5px green;
+   margin: 10px;
+   overflow: hidden;
+}
+
+div{
+   height: 200px;
+   width: 350px;
+   border: solid black 2px;
+   margin: 20px;
+   background-color: aquamarine;
+}
+
+.section2 div{
+   float: right;
+}
+
+.d1{
+   overflow: hidden;
+}
+
+.disp{
+   width: 750px;
+}
+
+.disp span {
+   font-size: 1.5em;
+   font-weight: bold;
+   font-style: italic;
+   border: solid 1px blue;
+   margin: 0px 50px;
+   display: block;
+}
+
+.disp a {
+   font-size: 1.5em;
+   margin: 0px 40px;
+}
+
+p{
+   width: 200px;
+   border: solid 3px yellowgreen;
+   display: inline-block;
+}
+
+.sextion2{
+   padding: 20px;
+}
+
+.section3{
+   padding: 20px;
+}
+
+.section3 div{
+   display: inline-block;
+}

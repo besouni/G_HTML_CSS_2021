@@ -1,0 +1,121 @@
+header, footer, nav, main{
+   border: solid 2px silver;
+   margin: 10px auto;
+   width: 80%;
+   box-sizing: border-box;
+}
+
+header{
+   height: 100px;
+   background-color: antiquewhite;
+}
+
+nav{
+   min-height: 20px;
+}
+
+main{
+   min-height: 400px;
+   padding-top: 0px;
+   box-sizing: border-box;
+}
+
+footer{
+   height: 50px;
+   background-color: antiquewhite;
+}
+
+.left-menu{
+   width: 20%;
+   min-height: 200px;
+   background-color: aqua;
+   float: left;
+   margin-top:0px;
+   border: none;
+}
+
+.left-menu ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.left-menu ul a{
+   text-decoration: none;
+   border-bottom: solid silver 2px;
+   display: block;
+   padding: 10px;
+}
+
+.left-menu ul a:hover{
+   background-color: bisque;
+}
+
+.horizontal-menu{
+   overflow: hidden;
+}
+
+.horizontal-menu ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   float: right;
+}
+
+.horizontal-menu ul li{
+   box-sizing: border-box;
+   min-width: 200px;
+   display: inline-block;
+}
+
+.horizontal-menu ul a{
+   box-sizing: border-box;
+   text-decoration: none;
+   display: block;
+   background-color: aqua;
+   padding: 10px;
+}
+
+.horizontal-menu ul a:hover{
+   background-color: bisque;
+}
+
+.content{
+   background-color: beige;
+   min-height: 400px;
+   float: left;
+   width: 80%;
+}
+
+.section1, .section2, section3{
+   overflow: hidden;
+   margin-bottom: 20px;
+}
+
+.section1 div{
+   height: 100px;
+   background-color: aquamarine;
+   width: 33.33%;
+   float: left;
+   border: solid 2px brown;
+   box-sizing: border-box;
+   margin: 0px;
+}
+
+.section2 div{
+   height: 100px;
+   background-color: aquamarine;
+   width: 50%;
+   float: left;
+   border: solid 2px brown;
+   box-sizing: border-box;
+}
+
+.section3 div{
+   height: 100px;
+   background-color: aquamarine;
+   width: 100%;
+   float: left;
+   border: solid 2px brown;
+   box-sizing: border-box;
+}
