@@ -1,0 +1,33 @@
+.overfl{
+   border: solid black 2px;
+   width: 300px;
+   /* min-height: 200px; */
+   height: 200px;
+   margin: auto;
+   padding: 10px;
+   overflow: scroll;
+   text-indent: 100px;
+}
+
+.container{
+   border: black 2px solid;
+   width: 700px;
+   margin: auto;
+   margin-top: 20px;
+   background-color: antiquewhite;
+   padding: 10px;
+   overflow: hidden;
+   border-bottom:dashed 10px blue;
+   height: 300px;
+   position: relative;
+   border-top-right-radius: 50%;
+   border-bottom-left-radius: 50%;
+}
+
+.container div{
+   background-color: aqua;
+   height: 100px;
+   width: 100px;
+   border: solid 2px blue;
+   float: left;
+}
