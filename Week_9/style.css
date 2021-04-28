@@ -1,0 +1,35 @@
+form, .container{
+   border: solid 2px black;
+   padding: 20px;
+   width: 700px;
+   margin: 20px auto;
+}
+
+form h2{
+   text-align: center;
+   text-decoration: underline;
+}
+
+.container h2{
+   text-align: center;
+   text-decoration: underline;
+}
+
+.user{
+   padding: 10px;
+   font-size: 1.5em;
+   border:none;
+   outline: none;
+   border-bottom: solid 2px green;
+   background-color: antiquewhite;
+}
+
+.user:focus{
+   background-color: aquamarine;
+}
+
+.click-me{
+   padding: 10px;
+   font-weight: bold;
+   cursor: pointer;
+}
