@@ -1,0 +1,29 @@
+.container{
+   border: solid 5px gray;
+   background-color: aqua;
+   width: 80%;
+   height: 300px;
+   margin: auto;
+}
+
+@media (min-width:800px){
+   .container{
+      background-color: beige;
+      height: 600px;
+   }
+}
+
+@media (min-width:1000px){
+   .container{
+      background-color: brown;
+      height: 600px;
+   }
+}
+
+@media (max-width:584px){
+   .container{
+      background-color: blueviolet;
+      height: 100px;
+   }
+}
+
